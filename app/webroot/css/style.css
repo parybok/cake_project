@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* by MILKA  ver 0.1*/
+
+* {margin:0;padding:0;}
+#container {margin:auto;width:1024px;}
+
+body{text-align:center;}
+form{display:block}
+.left{float:left}
+.right{float:right}
+.center{text-align:center}
+.clear{clear:both}
+.hidden{display:none!important;visibility:hidden}
+a{text-decoration:none;}
+
+/* button green for site*/
+.button_green {
+	display:block;
+	background-color:#72b14e;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	display:inline-block;
+	padding:7px 12px 11px 12px;
+	color:#ffffff;
+	font-family:arial;
+	font-weight:bold;
+	font-size:14px;}
+.button_green span{border-bottom: 2px dotted;}
+.button_green:hover {background-color:#568912;}
+.button_green:hover span{border-bottom: 2px solid;}
+/* end button green for site*/
+
+/* header for site*/
+#header{height:100px;font-family:verdana;font-size:16px;}
+#header .logo{float: left;padding: 25px 0 0 25px;}
+#header .menu {float: left;padding: 50px 0 0 46px; }
+#header .menu a{color:#000000;border-bottom: 2px dotted;margin-right: 15px;}
+#header .menu a:hover{border-bottom: 2px solid;color:#ED3237;}
+#header .right_menu {float: left;padding: 50px 0 0 100px;}
+#header .right_menu .right_menu_url {float: left;margin-right: 20px;}
+#header .right_menu .right_menu_url a {color:#375406;border-bottom: 2px dotted;font-weight:bold;}
+#header .right_menu .right_menu_url a:hover {color:#375406;border-bottom: 2px solid;}
+#header_gradient{
+	height:50px;
+	background: #a8d486;
+	background: -moz-linear-gradient(top,  #a8d486 0%, #eef6e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a8d486), color-stop(100%,#eef6e2));
+	background: -webkit-linear-gradient(top,  #a8d486 0%,#eef6e2 100%);
+	background: -o-linear-gradient(top,  #a8d486 0%,#eef6e2 100%);
+	background: -ms-linear-gradient(top,  #a8d486 0%,#eef6e2 100%);
+	background: linear-gradient(to bottom,  #a8d486 0%,#eef6e2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8d486', endColorstr='#eef6e2',GradientType=0 );}
+/* end header for site*/
+
+/* footer for site*/
+#footer{clear:both;float: left;font-family:verdana;font-size:12px;width:100%;}
+#footer .menu {float: left;padding:28px 0 0 20px; }
+#footer .menu a{color:#375406;border-bottom: 1px dotted;margin-right: 15px;}
+#footer .menu a:hover{border-bottom: 1px solid;color:#ED3237;}
+#footer_gradient{
+	height:50px;
+	background: #a8d486;
+	background: -moz-linear-gradient(top,  #eef6e2 0%, #a8d486 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eef6e2), color-stop(100%,#a8d486));
+	background: -webkit-linear-gradient(top,  #eef6e2 0%,#a8d486 100%);
+	background: -o-linear-gradient(top,  #eef6e2 0%,#a8d486 100%);
+	background: -ms-linear-gradient(top,  #eef6e2 0%,#a8d486 100%);
+	background: linear-gradient(to bottom,  #eef6e2 0%,#a8d486 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8d486', endColorstr='#eef6e2',GradientType=0 );}
+/* end footer for site*/
+
+
+
+
+
+/* search for site*/
+#search{clear:both;float:center;}
+#search #search_text{font-size: 24pt;font-family:arial;color:#375406;}
+#search .searсh_box {
+ 	display:block;
+ 	width: 600px;
+ 	height:100px;
+ 	background: #558610;
+	-moz-box-shadow: 8px 8px 20px #888;
+	-o-box-shadow: 8px 8px 20px #888;
+	-webkit-box-shadow: 8px 8px 20px #888;
+	box-shadow: 8px 8px 20px #888;
+	border-radius:13px;
+	margin:15px;
+}
+#search .menu a {float: left;color:#ffffff;border-bottom: 1px dotted; margin: 10px 0 0 15px;font-weight:bold;font-family:arial;font-size:12px;}
+#search .menu a:hover {border-bottom: 1px solid;color:#ffffff;}
+#search .menu .search_lights a {margin: 10px 0 0 262px;}
+#search .menu .search_hards a {margin: 10px 0 0 20px;font-weight:normal;}
+#search .menu .search_hards a:hover {display: block;background: #375406;}
+#search .menu .search_hards_down{clear:both;float: left;}
+#search .input{
+	clear:both;
+	float: left;
+	margin: 5px 0 0 7px;
+	width: 432px;
+	height:24px;
+	border : 1px solid gray;
+	font-size:15px;
+	}
+#search .search_content{margin-left: 70px;padding-bottom: 50px;font-family:arial;font-size:18pt;color:#375406;}
+#search  #alphabet{
+	float: left;
+	display:block;
+	font-family:arial;
+	font-size:16pt;
+	width:40px;
+}
+#search  #alphabet a{border-bottom: 1px dotted;color:#1E1A16;}
+#search  #alphabet a:hover {border-bottom: 1px solid;color:#ED3237;}
+#search .search_content .block{
+	float: left;
+	display:block;
+	width:248px;
+	height: 352px;
+	margin-right: 50px;
+}
+#search .search_content .block .line{border-bottom: 2px solid;color:#C1C1C0;}
+/* end search for site*/
